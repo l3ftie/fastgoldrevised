@@ -76,7 +76,6 @@ const Contact = () => {
       </div>
       <div className="max-w-7xl mx-auto item-center justify-center mt-12 text-gray-50 flex gap-2">
         <p>Fast gold Africa &copy; {year}</p>
-        <a href="mailto:nkarodza@gmail.com">Designed by RND</a>
       </div>
       <FloatingWhatsApp phoneNumber="+27789247007" accountName="Fast Gold Africa" darkMode avatar="./favicon.png" />
     </footer>

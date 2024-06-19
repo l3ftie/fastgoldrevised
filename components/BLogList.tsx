@@ -10,9 +10,10 @@ const BLogList = () => {
 
   return (
     <section className="h-full max-w-7xl mx-auto  lg:px-6 z-10">
-      <div className=" mb-4 flex justify-end">
-        <Link href="/blog" className="font-bold">
-          View All Blogs
+      <div className=" mb-10 flex md:flex-row flex-col justify-between items-end">
+        <h5 className="fancy-font text-3xl ">Ways to buy gold from Africa</h5>
+        <Link href="/blog" className="fancy-font text-yellow-400 underline underline-offset-8 text-base ">
+          View More
         </Link>
       </div>
       {displayPosts?.length > 0 ? (

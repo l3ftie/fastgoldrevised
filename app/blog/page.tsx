@@ -12,6 +12,9 @@ export default async function BlogPage() {
     <>
       <InnerNavigation />
       <section className="container max-w-4xl mx-auto py-6 mt-24 lg:py-10">
+        <div className="my-6">
+          <h5 className="fancy-font text-3xl ">Ways to buy gold from Africa</h5>
+        </div>
         <div className="">
           {displayPosts?.length > 0 ? (
             <ul className=" md:grid md:grid-cols-3 flex flex-col gap-4 ">

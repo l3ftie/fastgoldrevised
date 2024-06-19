@@ -61,7 +61,7 @@ const InnerNavigation = () => {
             : "border-2 rounded-full border-transparent"
         }  max-w-7xl mx-auto p-2 lg:p-3 lg:px-4 lg:w-full  flex items-center justify-between transition-all duration-500`}
       >
-        <Link href="/" className="flex items-center gap-2 lg:gap-4">
+        <div className="flex items-center gap-2 lg:gap-4">
           <button
             aria-label="open"
             onClick={() => setIsOpen(true)}
@@ -83,7 +83,7 @@ const InnerNavigation = () => {
             </h1>
             <p className=" hidden lg:block lg:text-xs">Your Reliable Gold Trading Partner</p>
           </div>
-        </Link>
+        </div>
         <div className="flex-1 flex items-center justify-end lg:gap-12">
           <div className="hidden lg:flex items-center space-x-5">
             {navItems.map((link) => (

@@ -1,12 +1,14 @@
 import Image from "next/image";
 import React from "react";
+import gold3img from "../public/gold3.webp";
+import gold4img from "../public/gold4.webp";
 
 const About = () => {
   return (
     <div className="lg:flex h-full max-w-7xl mx-auto lg:px-6 z-10">
       <div className="self-center w-full pt-36">
-        <div className="lg:flex items-center justify-between">
-          <div className="lg:w-1/2">
+        <div className="items-start justify-between">
+          <div className="">
             <h3 className="fancy-font text-3xl lg:text-4xl mb-4">
               Fast Gold Africa: Your Reliable Gold Trading Partner
             </h3>
@@ -16,24 +18,28 @@ const About = () => {
               world. Our process is fast, transparent, and hassle-free, ensuring that you always get the best value for
               your investment.
             </p>
-            <p className="mb-4 text-lg">
-              At Fast Gold Africa, we take pride in our large resources of gold, ensuring that we can offer you a
-              diverse range of gold products. From exquisite gold jewelry to rare gold coins, we have something to suit
-              every taste and budget. Our gold items are carefully selected and authenticated, guaranteeing their
-              authenticity and value.
-            </p>
-            <p className="mb-4 text-lg">
-              So why wait? Contact Fast Gold Africa today and let us help you take your gold trading to the next level.
-              With our fast, reliable, and transparent service, you can rest assured that you are in good hands.
-            </p>
+
+            <div className="md:flex gap-4">
+              <Image
+                src={gold4img}
+                alt="fast gold africa gold nuggets"
+                className=" object-cover h-[300px] w-full md:w-[300px] rounded-lg border-2 border-gray-500/40 hover:scale-105 transition-all duration-200 ease"
+              />
+              <div>
+                <p className="mb-4 text-lg">
+                  At Fast Gold Africa, we take pride in our large resources of gold, ensuring that we can offer you a
+                  diverse range of gold products. From exquisite gold jewelry to rare gold coins, we have something to
+                  suit every taste and budget. Our gold items are carefully selected and authenticated, guaranteeing
+                  their authenticity and value.
+                </p>
+                <p className="mb-4 text-lg">
+                  So why wait? Contact Fast Gold Africa today and let us help you take your gold trading to the next
+                  level. With our fast, reliable, and transparent service, you can rest assured that you are in good
+                  hands.
+                </p>
+              </div>
+            </div>
           </div>
-          <Image
-            height={400}
-            width={400}
-            className="object-contain hidden lg:block rounded-md"
-            src="/gold34.webp"
-            alt="bags of gold"
-          />
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-4 md:mt-7">

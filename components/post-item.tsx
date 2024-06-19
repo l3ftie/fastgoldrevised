@@ -16,8 +16,8 @@ export function PostItem({ slug, title, description, date }: PostItemProps) {
         </h2>
       </div>
       <div className=" max-w-none text-muted-foreground">{description}</div>
-      <div className="flex flex-col justify-between ">
-        <dl>
+      <div className="flex flex-col  h-full justify-between ">
+        <dl className="flex-1">
           <dt className="sr-only">Published On</dt>
           <dd className=" text-sm sm:text-base font-medium flex items-center gap-1">
             <time dateTime={date}>{format(new Date(date), "MM/dd/yyyy")}</time>

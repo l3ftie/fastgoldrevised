@@ -4,16 +4,14 @@ import Image from "next/image";
 import React from "react";
 import gold1img from "../public/gold1.webp";
 import gold2img from "../public/gold2.webp";
-import gold3img from "../public/gold3.webp";
-import gold4img from "../public/gold4.webp";
 
 const HowItWorks = () => {
   return (
     <section className=" h-full max-w-7xl mx-auto lg:px-6 z-10">
-      <div className="self-center  ">
-        {/* action banner */}
-        <div className="lg:grid relative overflow-hidden lg:grid-cols-5 w-full p-6 border-2 border-gray-500/40 rounded-md my-8 lg:my-12 bg-slate-600/30">
-          <div className="col-span-2">
+      <div className="  ">
+        <div className="relative md:flex md:items-center md:justify-end">
+          {/* action banner */}
+          <div className=" md:absolute left-0 w-full md:w-[70%] h-fit p-6 border-2 border-gray-400/40 rounded-md my-8 lg:my-12 bg-slate-800">
             <p className="fancy-font text-3xl lg:text-4xl">
               Get Started today with securing your wealth with Gold, Get the investing going...
             </p>
@@ -29,14 +27,12 @@ const HowItWorks = () => {
             </button>
           </div>
           <Image
-            src="/gold24.webp"
-            height={300}
-            width={300}
-            className="object-cover hidden lg:block absolute right-4 top-3 bottom-3  rounded-xl  h-[250px] w-[400px]"
-            alt="getting started gold"
+            src={gold2img}
+            alt="fast gold africa gold nuggets"
+            className=" object-cover hidden md:inline-flex h-[450px] w-[450px] rounded-lg border-2 border-gray-500/40"
           />
-          <div className="col-span-3 content-end"></div>
         </div>
+
         {/*  */}
         <div className="lg:grid grid-cols-2 gap-4">
           <div>
@@ -55,30 +51,13 @@ const HowItWorks = () => {
               price. Start your journey into the world of gold ownership by exploring our collection today!
             </p>
           </div>
+          <Image
+            src={gold2img}
+            alt="fast gold africa gold nuggets"
+            className=" object-cover md:hidden h-[300px] w-full rounded-lg border-2 my-6 border-gray-500/40"
+          />
         </div>
         {/*  */}
-      </div>
-      <div className="grid md:grid-cols-4 gap-4 my-8 relative">
-        <Image
-          src={gold1img}
-          alt="fast gold africa gold nuggets"
-          className=" object-contain h-full w-full rounded-lg border-2 border-gray-500/40 hover:scale-105 transition-all duration-200 ease"
-        />
-        <Image
-          src={gold2img}
-          alt="fast gold africa gold nuggets"
-          className=" object-contain h-full w-full rounded-lg border-2 border-gray-500/40 hover:scale-105 transition-all duration-200 ease"
-        />
-        <Image
-          src={gold3img}
-          alt="fast gold africa gold nuggets"
-          className=" object-cover h-full w-full rounded-lg border-2 border-gray-500/40 hover:scale-105 transition-all duration-200 ease"
-        />
-        <Image
-          src={gold4img}
-          alt="fast gold africa gold nuggets"
-          className=" object-cover h-full w-full rounded-lg border-2 border-gray-500/40 hover:scale-105 transition-all duration-200 ease"
-        />
       </div>
     </section>
   );
