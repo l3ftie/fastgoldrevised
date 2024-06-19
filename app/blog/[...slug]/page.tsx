@@ -35,7 +35,7 @@ export default async function PostPage({ params }: PostPageProps) {
       <InnerNavigation />
       <div className="relative h-80">
         <div className="absolute inset-0 bg-black/70 z-10" />
-        <Image fill className="object-cover" src={post.image || ""} alt={post.title} />
+        {/* <Image fill className="object-cover" src={post.image || ""} alt={post.title} /> */}
         <div className="max-w-7xl mx-auto relative z-20 flex flex-col items-center justify-end pb-10 px-6 md:px-0 h-full">
           <span className="bg-yellow-500/80 w-fit  py-2 rounded-full px-6">{post.country}</span>
           <h4 className="text-3xl md:text-5xl fancy-font">{post.subtext}</h4>
