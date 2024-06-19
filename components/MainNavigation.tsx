@@ -93,7 +93,7 @@ const MainNavigation = () => {
             }}
             className="flex items-center gap-2 border-2 border-yellow-500/80 rounded-full hover:bg-yellow-500/80 hover:text-gray-800 transition-all px-3 lg:px-3 py-3 lg:py-3 text-xs font-semibold"
           >
-            let's Talk
+            contact us
             <BadgeDollarSignIcon size={24} />
           </button>
         </div>

@@ -3,28 +3,28 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="lg:flex h-full max-w-7xl mx-auto  lg:px-6 z-10">
-      <div className="self-center w-full pt-36 ">
+    <div className="lg:flex h-full max-w-7xl mx-auto lg:px-6 z-10">
+      <div className="self-center w-full pt-36">
         <div className="lg:flex items-center justify-between">
-          <div className="lg:w-1/2 ">
+          <div className="lg:w-1/2">
             <h3 className="fancy-font text-3xl lg:text-4xl mb-4">
               Fast Gold Africa: Your Reliable Gold Trading Partner
             </h3>
-            <p className=" mb-4 text-lg">
+            <p className="mb-4 text-lg">
               Looking for a trusted and efficient gold trading partner in South Africa? Look no further than Fast Gold
               Africa! We are a leading gold trader that specializes in buying and selling gold to clients all around the
               world. Our process is fast, transparent, and hassle-free, ensuring that you always get the best value for
               your investment.
             </p>
-            <p className=" mb-4 text-lg">
+            <p className="mb-4 text-lg">
               At Fast Gold Africa, we take pride in our large resources of gold, ensuring that we can offer you a
               diverse range of gold products. From exquisite gold jewelry to rare gold coins, we have something to suit
               every taste and budget. Our gold items are carefully selected and authenticated, guaranteeing their
               authenticity and value.
             </p>
-            <p className=" mb-4 text-lg">
+            <p className="mb-4 text-lg">
               So why wait? Contact Fast Gold Africa today and let us help you take your gold trading to the next level.
-              With our fast, reliable, and transparent service, you can rest assured that you're in good hands.
+              With our fast, reliable, and transparent service, you can rest assured that you are in good hands.
             </p>
           </div>
           <Image
@@ -43,10 +43,10 @@ const About = () => {
               <span className="text-xs">01</span>
             </div>
             <div>
-              <p className=" text-gray-50">
+              <p className="text-gray-50">
                 At fast gold africa, we utilize advanced machinery to extract gold, while also collaborating with local
                 communities to purchase raw gold from nearby miners. We carefully document and process the gold
-                according to our clients' specific requirements, ensuring the highest quality standards.
+                according to our clients specific requirements, ensuring the highest quality standards.
               </p>
             </div>
           </div>
@@ -56,7 +56,7 @@ const About = () => {
               <span className="text-xs">02</span>
             </div>
             <div>
-              <p className=" text-gray-50">
+              <p className="text-gray-50">
                 Our company has the capability to supply gold ranging from one ounce to one ton. This is made possible
                 by our operations in various gold mining countries, where we establish partnerships with both local
                 communities and licensed gold mining companies as our trusted sources.
@@ -70,7 +70,7 @@ const About = () => {
             </div>
 
             <div>
-              <p className=" text-gray-50">
+              <p className="text-gray-50">
                 Our extensive experience and highly skilled logistics team give us a competitive advantage in exporting
                 gold from Africa. We have established partnerships with internationally recognized shipping companies,
                 such as DHL, to ensure secure and efficient transportation of gold.

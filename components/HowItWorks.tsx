@@ -15,7 +15,7 @@ const HowItWorks = () => {
         <div className="lg:grid relative overflow-hidden lg:grid-cols-5 w-full p-6 border-2 border-gray-500/40 rounded-md my-8 lg:my-12 bg-slate-600/30">
           <div className="col-span-2">
             <p className="fancy-font text-3xl lg:text-4xl">
-              Get Started today with securing your wealth with Gold, Let's get the investing going...
+              Get Started today with securing your wealth with Gold, Get the investing going...
             </p>
             <button
               className=" mt-3 flex items-center gap-2 border-2 border-yellow-500/80 rounded-full hover:bg-yellow-500/80 hover:text-gray-800 transition-all px-4 lg:px-4 py-3  text-base font-semibold"
@@ -24,7 +24,7 @@ const HowItWorks = () => {
                 div?.scrollIntoView({ behavior: "smooth" });
               }}
             >
-              Let's Talk
+              Contact Us
               <BadgeDollarSignIcon size={24} />
             </button>
           </div>
@@ -51,8 +51,8 @@ const HowItWorks = () => {
           <div>
             <p className=" pt-6 lg:pt-14 text-lg">
               Experience the satisfaction of owning genuine gold minerals from Fast Gold Africa. With our reputation as
-              the leading seller of gold minerals, you can trust that you're getting the finest quality at a good price.
-              Start your journey into the world of gold ownership by exploring our collection today!
+              the leading seller of gold minerals, you can trust that you are getting the finest quality at a good
+              price. Start your journey into the world of gold ownership by exploring our collection today!
             </p>
           </div>
         </div>
